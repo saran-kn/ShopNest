@@ -1,0 +1,28 @@
+.add-product {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+    column-gap: 4px;
+    input {
+      padding: 10px;
+      border: 1px solid rgb(195, 195, 195);
+      outline: none;
+      border-radius: 5px;
+    }
+    textarea {
+      padding: 10px;
+      border: 1px solid rgb(195, 195, 195);
+      outline: none;
+      border-radius: 5px;
+    }
+    select {
+      padding: 10px;
+      border: 1px solid rgb(195, 195, 195);
+      outline: none;
+      border-radius: 5px;
+    }
+  }
+}

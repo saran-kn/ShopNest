@@ -1,0 +1,30 @@
+.btn {
+  padding: 12px 14px;
+  background-color: var(--shopnest-light-blue);
+  color: var(--shopnest-white);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  transition: all ease 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--shopnest-light-brown);
+}
+
+.secondary {
+  background-color: var(--shopnest-off-white);
+  color: var(--shopnest-dark-blue);
+}
+
+.go-back {
+  background-color: var(--shopnest-dark-blue);
+  color: var(--shopnest-white);
+}

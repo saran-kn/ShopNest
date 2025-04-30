@@ -1,0 +1,28 @@
+.side-bar-main-container {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  row-gap: 26px;
+  background-color: var(--shopnest-off-white);
+  height: 100vh;
+  color: var(--shopnest-dark-blue);
+  font-size: var(--shopnest-med-size);
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  left: 0;
+  .filter-container {
+    .filter-header {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    .filter {
+      display: flex;
+      column-gap: 10px;
+    }
+  }
+}

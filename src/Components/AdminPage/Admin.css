@@ -1,0 +1,39 @@
+.admin-main-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  .admin-buttons {
+    display: flex;
+    justify-content: end;
+    column-gap: 16px;
+  }
+  img{
+    height: 100px;
+    width: 100px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    background-color: var(--shopnest-dark-blue);
+    color: var(--shopnest-off-white);
+  }
+  
+  td,
+  th {
+    border: 1px solid var(--shopnest-off-white);
+    text-align: left;
+    padding: 8px;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f0f8ff; 
+  }
+}
+
+box-icon:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.showuser-main-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  .showuser-count {
+    color: var(--shopnest-dark-blue);
+    background-color: var(--shopnest-off-white);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .showuser-head {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      font-size: var(--font-max-size);
+    }
+    span {
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f0f8ff; 
+  }
+  
+  .user-back-button {
+    display: flex;
+    justify-content: end;
+  }
+}

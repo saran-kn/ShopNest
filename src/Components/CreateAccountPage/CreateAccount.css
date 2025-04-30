@@ -1,0 +1,65 @@
+.create-account-main-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--shopnest-off-white);
+
+  .create-account-container {
+    background-color: var(--shopnest-dark-blue);
+    border-radius: 10px;
+    padding: 20px;
+    color: var(--shopnest-white);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: clamp(150px, 50vw, 450px);
+    .create-account-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 4px;
+    }
+    .create-account-input {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      padding: 18px 0px;
+      border-bottom: 1px solid var(--shopnest-off-white);
+      .input-field {
+        display: flex;
+        flex-direction: column;
+        row-gap: 6px;
+        input {
+          padding: 10px;
+          outline: none;
+          border: none;
+          border-radius: 6px;
+        }
+      }
+    }
+    .create-account-buttons {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .compulsary-star {
+      color: var(--shopnest-red);
+      font-size: 10px;
+      padding-left: 2px;
+    }
+    .success-container {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      .registration-success {
+        color: var(--shopnest-green);
+        text-align: center;
+        border: 2px solid var(--shopnest-green);
+        padding: 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+}

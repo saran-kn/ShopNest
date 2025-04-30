@@ -1,0 +1,58 @@
+.login-main-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--shopnest-off-white);
+  .login-container {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+
+    color: var(--shopnest-white);
+    img {
+      height: 430px;
+      width: clamp(150px, 50vw, 380px);
+      background-color: #fff;
+    }
+    .login-content {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--shopnest-dark-blue);
+      row-gap: 20px;
+      justify-content: center;
+      padding: 30px;
+      align-items: center;
+      flex-wrap: wrap;
+      width: clamp(150px, 50vw, 380px);
+      .login-content-title {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        font-size: var(--font-max-size);
+        font-weight: 600;
+      }
+      .login-content-message {
+        font-size: var(--font-med-size);
+        text-align: center;
+      }
+
+      input {
+        padding: 10px;
+        width: clamp(100px, 50vw, 250px);
+        outline: none;
+        border: none;
+        border-radius: 6px;
+      }
+
+      .login-buttons {
+        display: flex;
+        column-gap: 20px;
+      }
+      .forget-password:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+}
